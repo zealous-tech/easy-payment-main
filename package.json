@@ -3,18 +3,19 @@
   "version": "0.0.1",
   "description": "Node.js multi-gateway payment processing module",
   "main": "index.js",
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/InstigateMobile/easy-payment-main"
+    "url": "https://github.com/zealous-tech/easy-payment-main"
   },
   "keywords": [
     "easy-payment",
     "gateway",
     "payment"
   ],
-  "author": "Instigate Mobile CJCS",
+  "author": "zealous",
   "license": "MIT",
   "dependencies": {
-    "@easy-payment/base": "git+https://git@github.com/InstigateMobile/easy-payment-base.git"
+    "@easy-payment/base": "git+https://git@github.com:zealous-tech/easy-payment-base.git"
   }
 }

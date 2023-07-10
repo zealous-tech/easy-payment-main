@@ -22,8 +22,4 @@ const client = Gateways.create(IDBANK, settings);
 
 ## Supported Gateways
 
-[IDBank](https://github.com/InstigateMobile/easy-payment-idbank)
-
-[adyen-google-pay](https://github.com/InstigateMobile/easy-payment-adyen-google-pay)
-
-[adyen-apple-pay](https://github.com/InstigateMobile/easy-payment-adyen-apple-pay)
+[IDBank](https://github.com/zealous-tech/easy-payment-idbank)
