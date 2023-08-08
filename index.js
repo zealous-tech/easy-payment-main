@@ -1,4 +1,4 @@
-const BaseGateway = require('@easy-payment/base').BaseGateway;
+import { BaseGateway } from '@easy-payment/base';
 
 /**
  * @param {Object} gateway - callback for the gateway to be initialized
@@ -6,11 +6,15 @@ const BaseGateway = require('@easy-payment/base').BaseGateway;
  * see the relevant gateway for more details
  * @returns {BaseGateway} an object which inherits (prototype) from BaseGateway
  */
-exports.create = function create(gateway, options) {
+const create = (gateway, options) => {
   const gw = gateway(options);
   if (!gw instanceof BaseGateway) {
     throw new Error('the gateway must be an instance of the BaseGateway');
   }
 
   return gw;
+};
+
+export default {
+  create
 };
